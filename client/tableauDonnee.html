@@ -132,10 +132,68 @@
         <p>Texte avant le formulaire</p>
 
         <form method="post" action="traitement.php">
-            <p>Texte à l'intérieur du formulaire</p>
-            <p> <label>Votre pseudo</label> : <input type="text" name="pseudo" placeholder="pseudo" /></p>
+            <p>
+                <label for="pseudo">Votre pseudo :</label>
+                <input type="text" name="pseudo" id="pseudo" placeholder="Ex: ZOzor" size="30" maxlength="10">
+                <br>
+                <label for="pass">Votre mot de passe :</label>
+                <input type="password" name="pass" id="pass">
+                <br>
+                <label for="email">Votre email :</label>
+                <input type="email">
+                <br>
+                <label for="url">Votre CV :</label>
+                <input type="url">
+                <br>
+                <label for="tel">Votre numéro de telephone :</label>
+                <input type="tel">
+                <br>
+                <label for="number">Votre cheval prefere :</label>
+                <input type="number">
+            </p>
+            <p>
+                <label for="ameliorer">Comment penser-vous que je pourrais améliorer mon site ?</label><br>
+                <textarea name="ameliorer" id="ameliorer" cols="50" rows="10">Améliorer ton site ?! Mais enfin ! il est tellement génialissime qu'il n'est pas nécessaire de l'améliorer !
+                </textarea>
+            </p>
         </form>
         <p>Texte après le formulaire</p>
+        <hr>
+        <form method="post" action="traitement.php">
+            <p>
+                Veuillez indiquer la tranche d'âge dans laquelle vous vous situez : <br>
+                <input type="radio" name="age" value="moins15" id="moins15"> <label for="moins15">Moins de 15 ans</label> <br>
+                <input type="radio" name="age" value="medium15-25" id="medium15-25"> <label for="medium15-25">15-25 ans</label> <br>
+                <input type="radio" name="age" value="medium25-40" id="medium25-40"> <label for="medium25-40">25-40 ans</label> <br>
+                <input type="radio" name="age" value="plus40" id="plus40"> <label for="plus40">Encore plus vieux que ça ?!</label> <br>
+            </p>
+            <p>
+                Sur quel continent habitez-vous ? <br>
+                <input type="radio" name="continent" value="europe" id="europe"> <label for="europe">Europe</label> <br>
+                <input type="radio" name="continent" value="afrique" id="afrique"> <label for="afrique">Afrique</label> <br>
+                <input type="radio" name="continent" value="asie" id="asie"> <label for="asie">Asie</label> <br>
+                <input type="radio" name="continent" value="amerique" id="amerique"> <label for="amerique">Amérique</label> <br>
+                <input type="radio" name="continent" value="oceanie" id="oceanie"> <label for="oceanie">Oceanie</label> <br>
+            </p>
+        </form>
+        <hr>
+        <form method="post" action="traitement.php">
+            <p>
+                <label for="pays">Dans quel pays habitez-vous ?</label><br>
+                <select name="pays" id="pays">
+                    <option value="france">France</option>
+                    <option value="espagne">Espagne</option>
+                    <option value="italie">Italie</option>
+                    <option value="royaune-uni">Royaume-uni</option>
+                    <option value="canada">Canada</option>
+                    <option value="etats-unis">Etats-unis</option>
+                    <option value="chine">Chine</option>
+                    <option value="japon">Japon</option>
+                </select>
+            </p>
+        </form>
+        <hr>
+
     </section>
 
     <script src="https://kit.fontawesome.com/3227ebb15b.js"></script>
