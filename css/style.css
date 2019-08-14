@@ -18,11 +18,12 @@ body {
 header {
     background-color: black;
     width: 1020px;
-    height: 320px;
+    height: 380px;
 }
 
 header h1 {
     font-size: 133px;
+    padding-top: 25px;
 }
 
 nav {
@@ -120,4 +121,33 @@ section .col-3 {
 
 .typo-bitter {
     font-family: 'Bitter', serif;
+}
+
+.typo-page-tableau {
+    font-size: 100px;
+}
+
+
+/* exo Cedric suite de CREATE PRO */
+
+
+/*table,
+tr,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}*/
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+caption {
+    caption-side: top;
 }

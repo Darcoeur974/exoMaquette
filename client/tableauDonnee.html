@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Maquette</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="text-center typo-bitter mt-2">
+                <li><a class="jaune" href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT THE TESTS</a></li>
+                <li><a href="#">BUY THEMES</a></li>
+                <li><a href="#">PAGE LAYOUT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <h1 class="text-center jaune typo-jose typo-page-tableau">ABOUT THE TESTS</h1>
+        <p class="text-center jaune mt-4 mb-4 typo-bitter">PERSONAL • BUSINESS • ORGANIZATION</p>
+        <div class="barre-social text-center">
+            <a href=""><i class="fab fa-2x fa-facebook-square"></i></a>
+            <a href=""> <i class="fab fa-2x fa-twitter-square"></i></a>
+            <a href=""> <i class="fab fa-2x fa-google-plus-square"></i></a>
+            <a href=""> <i class="fab fa-2x fa-pinterest-square"></i></a>
+            <a href=""> <i class="fab fa-2x fa-youtube-square"></i></a>
+        </div>
+    </header>
+    <section>
+        <div class="block text-center gris typo-bitter">
+        </div>
+        <hr>
+        <table>
+            <caption>Passagers du vol 377</caption>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Àge</th>
+                    <th>Pays</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Nom</th>
+                    <th>Àge</th>
+                    <th>Pays</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Carmen</td>
+                    <td>33 ans</td>
+                    <td>Espagne</td>
+                </tr>
+                <tr>
+                    <td>Michelle</td>
+                    <td>26 ans</td>
+                    <td>Etats-Unis</td>
+                </tr>
+                <tr>
+                    <td>François</td>
+                    <td>43 ans</td>
+                    <td>France</td>
+                </tr>
+                <tr>
+                    <td>Martine</td>
+                    <td>34 ans</td>
+                    <td>France</td>
+                </tr>
+                <tr>
+                    <td>Xu</td>
+                    <td>19 ans</td>
+                    <td>Chine</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre du film</th>
+                    <th>Pour enfants ?</th>
+                    <th>Pour adolescents ?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Massacre à la tronçonneuse</td>
+                    <td>Non, trop violent</td>
+                    <td>Oui</td>
+                </tr>
+                <tr>
+                    <td>Les bisounours font du ski</td>
+                    <td>Oui, adapté</td>
+                    <td>Pas assez violent...</td>
+                </tr>
+                <tr>
+                    <td>Lucky Lyke, seul contre tous</td>
+
+                    <td colspan="2">Pour toute la famille !</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <th>Titre du film</th>
+                <td>Massacre à la tronçonneuse</td>
+                <td>Les bisounours font du ski</td>
+                <td>Lucky Lyke, seul contre tous</td>
+            </tr>
+            <tr>
+                <th>Pour enfants ?</th>
+                <td>Non, trop violent</td>
+                <td>Oui, adapté</td>
+                <td rowspan="2">Pour toute la famille !</td>
+            </tr>
+            <tr>
+                <th>Pour adolescents ?</th>
+                <td>Oui</td>
+                <td>Pas assez violent...</td>
+            </tr>
+        </table>
+        <hr>
+
+        <p>Texte avant le formulaire</p>
+
+        <form method="post" action="traitement.php">
+            <p>Texte à l'intérieur du formulaire</p>
+            <p> <label>Votre pseudo</label> : <input type="text" name="pseudo" placeholder="pseudo" /></p>
+        </form>
+        <p>Texte après le formulaire</p>
+    </section>
+
+    <script src="https://kit.fontawesome.com/3227ebb15b.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
